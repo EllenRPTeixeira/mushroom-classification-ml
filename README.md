@@ -8,6 +8,7 @@ Este projeto foi desenvolvido como parte do meu portfólio em Ciência de Dados 
 - Engenharia de Atributos: Aplicar técnicas de agrupamento (Clustering) para enriquecer o modelo preditivo.
 - Modelagem e Predição: Comparar a performance de diferentes modelos de classificação para garantir segurança máxima nas previsões.
 
+Visualização da correlação:
 ![Descrição](corr.png).
 
 🚀 **Diferenciais Matemáticos**
@@ -25,6 +26,7 @@ Para visualizar a separabilidade das classes em um espaço de alta dimensão ($2
 - PCA (Principal Component Analysis): Para uma projeção linear da variância dos dados.
 - SNE: Para mapeamento não-linear, preservando distâncias locais e evidenciando a formação de clusters naturais.
 
+Resultado da Visualização de Clusters:
 ![Descrição](pca.png).
 
 📊 **Métricas de Avaliação**
