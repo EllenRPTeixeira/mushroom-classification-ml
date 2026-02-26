@@ -1,6 +1,22 @@
 🍄 **Classificação de Cogumelos: Comestível ou Venenoso?**
 
-Este projeto foi desenvolvido como parte do meu portfólio em Ciência de Dados e Matemática Industrial. O objetivo principal é aplicar algoritmos de Machine Learning para determinar se um cogumelo é seguro para consumo ou venenoso, baseando-se em 22 atributos morfológicos.
+--------------------------------------------------------------------------------------------------------------------------
+
+📌 **Contexto do Projeto:**
+
+Este foi o meu primeiro projeto prático em Ciência de Dados, desenvolvido originalmente no segundo semestre de **2023** como parte da disciplina de **Machine Learning** da **UFPR (Matemática Industrial)**.
+O objetivo principal era criar um modelo de classificação capaz de prever se um cogumelo é **comestível** ou **venenoso** com baes em características morfológicas, utilizando o famoso datasei *Mushroom* do repositório UCI.
+
+🛠️ **Tecnologias e Métodos**
+
+- Linguagem: Python.
+- Bibliotecas: Pandas, Numpy, SciKit-Learn, Seaborn, Matplotlib.
+- Algoritmo Principal: Random Forest Classifier.
+- Processamento: Tratamento de variáveis categóricas via Label Encoding.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+**README ORIGINAL:**
 
 🎯 **Objetivos do Projeto**
 
@@ -57,6 +73,15 @@ Os modelos baseados em árvores apresentaram performance superior no conjunto de
 - mushrooms.csv: Base de dados original (proveniente do UCI Machine Learning Repository).
 - images/: Pasta contendo os gráficos de correlação e visualizações de clusters (PCA/t-SNE).
 
+--------------------------------------------------------------------------------------------------------------------------
+
+📈 **Reflexão e Evolução Técnica (2026)**
+
+Olhando para este projeto com a experiência que adquiri em Pesquisa e Desenvolvimento (P&D) no Instituto LACTEC e meus estudos atuais de Otimização Não Linear e Ciência de Dados, identifico pontos de melhoria:
+1. Validação Cruzada: Em 2023, utilizei apenas o split simples (train/test). Em 2026, entendo que a Validação Cruzada (Cross-Validation) é essencial para garantir a robustez do modelo em dados não vistos.
+2. Tratamento de Dados: Hoje optaria por técnicas de One-Hot Encoding ou Target Encoding para evitar que o modelo interprete ordens de grandeza inexistentes em variáveis puramente categóricas.
+3. Métricas de Avaliação: Além da acurácia, focaria em analisar o Recall e a Matriz de Confusão, visto que, neste problema, um Falso Negativo (dizer que um cogumelo venenoso é comestível) é um erro crítico.
+
 👩‍🔬 **Autora**
 
-**Ellen Rodrigues Ponijaleki Teixeira** *Graduanda em Matemática Industrial — UFPR*
+**Ellen Rodrigues Ponijaleki Teixeira** | [LinkedIn](www.linkedin.com/in/ellen-r-p-teixeira-9ab349285) | *Graduanda em Matemática Industrial — UFPR*
