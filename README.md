@@ -5,7 +5,7 @@
 📌 **Contexto do Projeto:**
 
 Este foi o meu primeiro projeto prático em Ciência de Dados, desenvolvido originalmente no segundo semestre de **2023** como parte da disciplina de **Machine Learning** da **UFPR (Matemática Industrial)**.
-O objetivo principal era criar um modelo de classificação capaz de prever se um cogumelo é **comestível** ou **venenoso** com baes em características morfológicas, utilizando o famoso datasei *Mushroom* do repositório UCI.
+O objetivo principal era criar um modelo de classificação capaz de prever se um cogumelo é **comestível** ou **venenoso** com base em características morfológicas, utilizando o famoso dataset *Mushroom* do repositório UCI.
 
 🛠️ **Tecnologias e Métodos**
 
